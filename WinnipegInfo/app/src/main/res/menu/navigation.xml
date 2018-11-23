@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_community"
+        android:title="Community Center" />
+
+    <item
+        android:id="@+id/navigation_cycling"
+        android:title="Cycling Map" />
+
+    <item
+        android:id="@+id/navigation_open_space"
+        android:title="Park/Open Space" />
+
+</menu>

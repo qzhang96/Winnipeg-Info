@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "516729410628",
+    "firebase_url": "https://winnipeginfo-c2c8e.firebaseio.com",
+    "project_id": "winnipeginfo-c2c8e",
+    "storage_bucket": "winnipeginfo-c2c8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516729410628:android:aaf02cf9013b8b49",
+        "android_client_info": {
+          "package_name": "com.example.winnipeginfo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516729410628-2db1lkc0of2p02u6vri5q82a1gtci09h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.winnipeginfo",
+            "certificate_hash": "361d3d533393cc2946bbe40a0788c90846886a26"
+          }
+        },
+        {
+          "client_id": "516729410628-4icj36ncqs3aiuu53md0sfbspemvbtgd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8kkix4xwPfObdHqoDb2oWbCc8bEG_WBg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "516729410628-4icj36ncqs3aiuu53md0sfbspemvbtgd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

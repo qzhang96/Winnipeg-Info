@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="First Round of Preferences">
+
+        <CheckBoxPreference
+            android:textColor="@color/colorPrimary"
+            android:key="checkbox_preference"
+            android:title="Checkbox Preference"
+            android:summary="This is a checkbox" />
+
+        <SwitchPreference
+            android:textColor="@color/colorPrimary"
+            android:key="switch_preference"
+            android:title="Switch preference"
+            android:summary="This is a switch" />
+
+        <EditTextPreference
+            android:textColor="@color/colorPrimary"
+            android:key="edittext_preference"
+            android:title="EditText Preference"
+            android:summary="You can even have edit text preferences"
+            android:dialogTitle="Write Something Nice" />
+        <!--DialogTitle is the text that pops up when a user interacts with the edittext-->
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Second Preference">
+        <EditTextPreference
+            android:textColor="@color/colorPrimary"
+            android:key="edittext2_preference"
+            android:title="EditText2 Preference"
+            android:summary="A second edit text."
+            android:dialogTitle="Write Something Else Nice" />
+
+        <!--The arrays references are in res/values/listing.xml-->
+        <ListPreference
+            android:key="list_preference"
+            android:title="Subject color"
+            android:summary=" "
+            android:entries="@array/subjectColor"
+            android:entryValues="@array/subjectColorValues"/>
+    </PreferenceCategory>
+</PreferenceScreen>
